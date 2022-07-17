@@ -36,7 +36,7 @@ def script():
         sol=input("Choose Your Option (1/2) : ")
         if sol=='1':
                 print("Make sure that your image is saved in the folder where this file running")
-                time.sleep(60)
+                time.sleep(40)
                 loc=str(input("\n Enter you image name with extension : "))
                 image = cv2.imread(loc)
                 decodedObjects = pyzbar.decode(image)
