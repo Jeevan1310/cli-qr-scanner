@@ -6,6 +6,7 @@ import pyzbar.pyzbar as pyzbar
 import urllib.request
 def script():
     print("Welcome to the Qr code scanner")
+    print("Its to use QRs")
     print("How do you want to scan a Qr code")
     print("1.From a Camera")
     print("2.From a Image")
