@@ -66,6 +66,7 @@ def script():
             print("Thank you :)")
         else:
             print("Sorry wrong input")
+            print("Also some error occured please return to the terminal")
     else:
         print("Wrong Input")
     reset=input("Do you want to continue(y/n):")
